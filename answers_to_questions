@@ -1,1 +1,7 @@
 1. ans> Repository is collection of files of various different versions of a Project , where as a branch is a version of the repository that diverges from the main working project
+2. ans>Merging is a common practice for developers. Whether branches are created for testing, bug fixes, or other reasons, merging commits changes to another branch. It takes the contents of a source branch and integrates it with a target branch.
+   Git rebase compresses all the changes into a single “patch.” Then it integrates the patch onto the target branch. Unlike merging, rebasing flattens history. It transfers the completed work from one branch to another. In the process, unwanted history is eliminated. 
+3. Squash in Git means to combine multiple commits into one. You can do this at any point in time (by using Git's "Interactive Rebase" feature), though it is most often done when merging branches.
+4.git stash pop throws away the (topmost, by default) stash after applying it, whereas git stash apply leaves it in the stash list for possible later reuse5.
+5.Cherry picking in Git means to choose a commit from one branch and apply it onto another.
+
